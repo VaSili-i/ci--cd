@@ -2,7 +2,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('test', function() {
+describe('test-test', function() {
     this.timeout(30000)
     let driver
     let vars
