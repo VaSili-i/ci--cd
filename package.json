@@ -9,6 +9,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "selenium": "^2.20.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,7 +20,8 @@
     "test:e2e": "node ./scripts/e2e.test.js",
     "lint": "node ./scripts/eslint.js",
     "type:check": "node ./scripts/typecheck.js",
-    "i18n:check": "node ./scripts/i18n-check.js"
+    "i18n:check": "node ./scripts/i18n-check.js",
+    "selenium": "node ./scripts/selenium.js"
   },
   "eslintConfig": {
     "extends": [
