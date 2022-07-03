@@ -22,7 +22,7 @@
     "lint": "node ./scripts/eslint.js",
     "type:check": "node ./scripts/typecheck.js",
     "i18n:check": "node ./scripts/i18n-check.js",
-    "selenium": "node ./scripts/selenium.js"
+    "selenium": "node scripts/selenium.spac.js"
   },
   "eslintConfig": {
     "extends": [
