@@ -22,6 +22,7 @@
     "lint": "node ./scripts/eslint.js",
     "type:check": "node ./scripts/typecheck.js",
     "i18n:check": "node ./scripts/i18n-check.js",
+    "install:all": "yarn install && cd mock-api-server && yarn install",
     "selenium": "mocha ./scripts/test.js --timeout 6000"
   },
   "eslintConfig": {
