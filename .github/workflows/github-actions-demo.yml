@@ -26,5 +26,7 @@ jobs:
         run: npm run test:e2e
       - name: lint code
         run: npm run lint
-      - name: selenium code
+      - name: install:all code
+        run: npm run install:all
+      - name: selenium test
         run: npm run selenium
