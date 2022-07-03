@@ -27,4 +27,4 @@ jobs:
       - name: lint code
         run: npm run lint
       - name: selenium test
-        run: npx run selenium
+        run: npx mocha selenium
