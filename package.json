@@ -23,7 +23,7 @@
     "type:check": "node ./scripts/typecheck.js",
     "i18n:check": "node ./scripts/i18n-check.js",
     "install:all": "yarn install && cd mock-api-server && yarn install",
-    "test": "mocha"
+    "test": "mocha test.js"
   },
   "eslintConfig": {
     "extends": [
