@@ -26,5 +26,5 @@ jobs:
         run: npm run test:e2e
       - name: lint code
         run: npm run lint
-      - name: selenium test
-        run: npx mocha ./scripts/selenium.js
+      - name: test test
+        run: npm run test

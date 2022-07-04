@@ -18,7 +18,7 @@ describe('test-test', function() {
         await driver.quit();
     })
     async function waitForWindow(timeout = 2) {
-        driver.setProperty("webdriver.chrome.driver", "/home/vasilii/WebstormProjects/ci--cd/chromedriver");
+    //    driver.setProperty("webdriver.chrome.driver", "/home/vasilii/WebstormProjects/ci--cd/chromedriver");
         options.addArguments("start-maximized"); // open Browser in maximized mode
         options.addArguments("disable-infobars"); // disabling infobars
         options.addArguments("--disable-extensions"); // disabling extensions
