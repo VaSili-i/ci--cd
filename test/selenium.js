@@ -19,12 +19,13 @@ describe('test-test', function() {
     })
     async function waitForWindow(timeout = 2) {
     //    driver.setProperty("webdriver.chrome.driver", "/home/vasilii/WebstormProjects/ci--cd/chromedriver");
-        options.addArguments("start-maximized"); // open Browser in maximized mode
+       /* options.addArguments("start-maximized"); // open Browser in maximized mode
         options.addArguments("disable-infobars"); // disabling infobars
         options.addArguments("--disable-extensions"); // disabling extensions
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-        options.addArguments("--no-sandbox");
+        options.addArguments("--no-sandbox");*/
+        options.addArguments( "--disable-gpu", "--headless", "--no-sandbox");
 
 
         await driver.sleep(timeout)
