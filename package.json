@@ -26,7 +26,7 @@
     "install:all": "yarn install && cd mock-api-server && yarn install",
     "install:google": "",
     "test": "npm run single",
-    "single": "./node_modules/.bin/mocha test/selenium.js --timeout 10000"
+    "single": "./node_modules/.bin/mocha test/selenium.js"
   },
   "eslintConfig": {
     "extends": [
