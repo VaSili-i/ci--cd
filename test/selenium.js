@@ -5,7 +5,7 @@ const chrome = require("selenium-webdriver/chrome");
 
 
 describe('test-test', function() {
-    this.timeout(30000)
+    this.timeout(3000)
     let driver
     let vars
     let options
@@ -38,7 +38,7 @@ describe('test-test', function() {
     }
     it('test-test', async function() {
         await driver.get("http://localhost:3000/")
-        await driver.manage().window().setRect({ width: 1920, height: 1053 })
+
         await driver.findElement(By.css(".App-header")).click()
         vars["windowHandles"] = await driver.getAllWindowHandles()
         await driver.findElement(By.linkText("Learn React")).click()
